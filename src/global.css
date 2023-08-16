@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+ #logo{
+    width: 200px;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-shadow: 1px 0px 5px rgb(23, 16, 16);
+    color: white;
+}
+
+#menu ul{
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+    list-style: none;
+    color: rgb(67, 63, 63);
+}
+
+.border{
+    width: 100%;
+    background-color: rgb(44, 45, 45)
+}
+
